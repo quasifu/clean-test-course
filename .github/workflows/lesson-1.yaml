@@ -3,7 +3,7 @@ name: Lesson 1
 on:
   push:
     branches:
-      - lesson-1
+      - lesson-1-complete
 jobs:
   build_and_test:
     runs-on: ubuntu-latest

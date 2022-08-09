@@ -20,4 +20,6 @@ class Subtotal():
 #Stubbed Total
 class Total():
   def calculate(order, deliveryFee):
-    return 16.24
+    subTotal = Subtotal.calculate(order)
+    total = (subTotal + deliveryFee) * 1.0825
+    return round(total, 2)
