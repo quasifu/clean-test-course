@@ -28,7 +28,7 @@ def test_Boundaries():
   #Arrange
   order = MockSet()
   order.add(MockModel(quantity=2, item=MockModel(price=-3.5)))
-  order.add(MockModel(quantity=1, item=MockModel(price=2)))
+  order.add(MockModel(quantity=1, item=MockModel(price=1.5)))
   deliveryFee = 5
   #Act
   cost = Total.calculate(order, deliveryFee)
