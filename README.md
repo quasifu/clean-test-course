@@ -48,7 +48,7 @@ The front end was originally created using [Create React App](https://create-rea
 
     Windows:
 
-        cd quantic-test-courses\backend\hangry_api
+        cd quantic-test-course\backend\hangry_api
 
     macOS/Linux:
 
