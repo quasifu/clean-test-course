@@ -17,6 +17,11 @@ class Subtotal():
       cost += item.quantity * item.item.price
     return cost
 
+class Tax():
+  def calculate(subTotal, deliveryFee):
+    tax = (subTotal + deliveryFee) * 0.0825
+    return (0,round(tax,2)) [ round(tax,2) > 0 ]
+
 #Stubbed Total
 class Total():
   def calculate(order, deliveryFee):
