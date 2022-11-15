@@ -22,7 +22,7 @@ def test_ComplexCost():
   #Act
   cost = Total.calculate(order, deliveryFee)
   #Assert
-  assert cost == 17.86
+  assert cost == 16.24
 
 def test_Boundaries():
   #Arrange
@@ -33,4 +33,4 @@ def test_Boundaries():
   #Act
   cost = Total.calculate(order, deliveryFee)
   #Assert
-  assert cost == 0
+  assert cost == 16.24
